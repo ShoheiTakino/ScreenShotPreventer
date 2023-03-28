@@ -16,6 +16,7 @@
 		5DFBDDCE29D2F644004E0B78 /* ScreenShotPreventerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBDDCD29D2F644004E0B78 /* ScreenShotPreventerTests.swift */; };
 		5DFBDDD829D2F644004E0B78 /* ScreenShotPreventerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBDDD729D2F644004E0B78 /* ScreenShotPreventerUITests.swift */; };
 		5DFBDDDA29D2F644004E0B78 /* ScreenShotPreventerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBDDD929D2F644004E0B78 /* ScreenShotPreventerUITestsLaunchTests.swift */; };
+		5DFBDDE929D2F798004E0B78 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBDDE829D2F798004E0B78 /* UIImageView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5DFBDDD329D2F644004E0B78 /* ScreenShotPreventerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenShotPreventerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFBDDD729D2F644004E0B78 /* ScreenShotPreventerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotPreventerUITests.swift; sourceTree = "<group>"; };
 		5DFBDDD929D2F644004E0B78 /* ScreenShotPreventerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotPreventerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DFBDDE829D2F798004E0B78 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		5DFBDDB529D2F642004E0B78 /* ScreenShotPreventer */ = {
 			isa = PBXGroup;
 			children = (
+				5DFBDDE629D2F784004E0B78 /* Extention */,
 				5DFBDDB629D2F642004E0B78 /* AppDelegate.swift */,
 				5DFBDDB829D2F642004E0B78 /* SceneDelegate.swift */,
 				5DFBDDBA29D2F642004E0B78 /* ViewController.swift */,
@@ -125,6 +128,22 @@
 				5DFBDDD929D2F644004E0B78 /* ScreenShotPreventerUITestsLaunchTests.swift */,
 			);
 			path = ScreenShotPreventerUITests;
+			sourceTree = "<group>";
+		};
+		5DFBDDE629D2F784004E0B78 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBDDE729D2F78B004E0B78 /* UIKit */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		5DFBDDE729D2F78B004E0B78 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBDDE829D2F798004E0B78 /* UIImageView+.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFBDDE929D2F798004E0B78 /* UIImageView+.swift in Sources */,
 				5DFBDDBB29D2F642004E0B78 /* ViewController.swift in Sources */,
 				5DFBDDB729D2F642004E0B78 /* AppDelegate.swift in Sources */,
 				5DFBDDB929D2F642004E0B78 /* SceneDelegate.swift in Sources */,

@@ -8,6 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - IBOutlet
+    
+    @IBOutlet private weak var imageView: UIImageView! {
+        didSet {
+            imageView.preventScreenShot()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
