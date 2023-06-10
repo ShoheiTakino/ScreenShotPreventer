@@ -16,6 +16,8 @@ extension UIImageView {
             field.isSecureTextEntry = true
             self.addSubview(field)
             
+            // ビルドスキームごとに使用するかどうかを判別する場合ここで条件付きコンパイルディレクティブを使用する
+            
             field.translatesAutoresizingMaskIntoConstraints = false
             field.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
             field.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
