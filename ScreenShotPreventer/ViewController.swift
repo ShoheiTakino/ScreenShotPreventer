@@ -16,12 +16,5 @@ class ViewController: UIViewController {
             imageView.preventScreenShot()
         }
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
 }
 
